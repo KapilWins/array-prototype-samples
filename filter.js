@@ -1,7 +1,9 @@
 //The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. This method does not change the original array.
 
 //syntax:
-//array.filter(function(currentValue, index, arr), thisValue)
+//array.filter(function(currentValue, index, arr), thisValue) ||
+//array.filter((currentValue, index, arr) => { /* … */ })
+
 //currentValue is required.
 
 const pilots = [
