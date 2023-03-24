@@ -1,8 +1,7 @@
 //The flatMap() method returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. It is identical to a map() followed by a flat() of depth 1 (arr.map(...args).flat()), but slightly more efficient than calling those two methods separately.
 
 //syntax:
-//array.flatMap(function callback(current_value, index, Array)) {
-// It returns the new array's elements.  }
+//array.flatMap(function callback(current_value, index, Array)) { It returns the new array's elements. }
 
 let arr = [1, 2, 3, 4, 5];
 
