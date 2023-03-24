@@ -1,6 +1,6 @@
 //The flat() method creates a new array with all sub-array elements concatenated into it.
 
-//Syntax: flat(depth)
+//Syntax: array.flat(depth)
 //Depth like 1,2,3…. How much depth you want to concat the array.
 
 //Example:

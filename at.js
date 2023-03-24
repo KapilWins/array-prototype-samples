@@ -1,7 +1,7 @@
 //The at() method takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the array.
 
 //syntax:
-//at(index)
+//array.at(index)
 
 const cart = ["apple", "banana", "pear"];
 

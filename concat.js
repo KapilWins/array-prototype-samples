@@ -1,10 +1,10 @@
 //The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 
 //syntax:
-//concat()
-//concat(value0)
-//concat(value0, value1)
-//concat(value0, value1, /* … ,*/ valueN)
+//array.concat()
+//array.concat(value0)
+//array.concat(value0, value1)
+//array.concat(value0, value1, /* … ,*/ valueN)
 
 //Example:
 const letters = ["a", "b", "c"];
