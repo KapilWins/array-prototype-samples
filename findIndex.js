@@ -1,8 +1,8 @@
 //The findIndex() method returns the index of the first element in an array that satisfies the provided testing function. If no elements satisfy the testing function, -1 is returned.
 
 //syntax:
-//findIndex((element, index, array) => { /* … */ })
-//findIndex(function (element, index, array) { /* … */ }, thisArg)
+//array.findIndex((element, index, array) => { /* … */ })
+//array.findIndex(function (element, index, array) { /* … */ }, thisArg)
 
 //Example:
 const array = [4, 6, 8, 12];
