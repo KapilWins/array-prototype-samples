@@ -1,10 +1,10 @@
 //The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
 //syntax:
-//splice(start)
-//splice(start, deleteCount)
-//splice(start, deleteCount, item1)
-//splice(start, deleteCount, item1, item2, itemN)
+//array.splice(start)
+//array.splice(start, deleteCount)
+//array.splice(start, deleteCount, item1)
+//array.splice(start, deleteCount, item1, item2, itemN)
 
 //Example:
 const myFish = ["angel", "clown", "mandarin", "sturgeon"];
