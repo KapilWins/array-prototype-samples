@@ -12,10 +12,10 @@ const arr = [2, 5, 8, 1, 4];
 const result = arr.some((element) => {
 	return element === 5;
 });
-console.log(result); //true (In this example the method some() checks for any number that is greater than 5. Since there exists an element that satisfies this condition, thus the method returns true.)
+console.log(result); //true (In this example the method some() checks for any number that is equal to 5. Since there exists an element that satisfies this condition, thus the method returns true.)
 
 //Example:
 const result2 = arr.some((element) => {
 	return element === 15;
 });
-console.log(result2); //false (In this example the method some() checks for any number that is greater than 5. Since there exists an element that satisfies this condition, thus the method returns false.)
+console.log(result2); //false (In this example the method some() checks for any number that is equal to 15. Since there exists an element that satisfies this condition, thus the method returns false.)
